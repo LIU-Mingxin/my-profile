@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(230, 230, 230);
+    color: #000; 
+    font-family: Courier;
+}
+
+.card-container {
+    margin: 40px auto; 
+    padding: 20px;
+    background-color: white; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* 添加阴影效果 */
+    border-radius: 10px; /* 设置边框圆角 */
+    max-width: 700px; /* 设置最大宽度 */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.header-center{
+    margin: 20px;
+    padding: 20px;
+    background: linear-gradient(45deg, #f0d7d7, #aae6a5);
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 50%, #ffecd2 100%);
+    border-image-slice: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 20px;
+}
+
+.info-card {
+    background: linear-gradient(45deg, #ff9af7, #fad0c4, #c4faf4, #ff9a9e);
+}
+
+.social-links i {
+    font-family: "Font Awesome 5 Brands" !important; 
+    font-weight: 900; 
+    font-size:36px;
+}
+
+.social-links {
+    box-shadow: 0 0 10px #888888, 0 0 20px #555555 inset;
+    display: flex;
+    border-width: 200px;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+.services-section {
+    text-align: center;
+    padding: 2px 0;
+    border: 3px solid #D4AF37; /* 使用金色的边框 */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 40px auto;
+}
+
+h1 {
+    font-family: "Bungee Spice", sans-serif;
+    color: blue;
+    font-weight: 100;
+    letter-spacing: 10px;
+    font-size: 32px;
+}
+
+h2 {
+    font-family: "Lobster", sans-serif;
+    color: green;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-weight:600;
+    font-size:16px;
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
+.header-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+img.circle {
+    border-radius:50%;
+}
+
+.btn-blue{
+    background-color:pink;
+    color:black;
+    padding:13px;
+}
+
+.btn-blue: hover{
+    background-color:black;
+    color:black;
+}
+
+.list-inline {
+    list-style:none;
+    padding-left:0px;
+}
+.list-inline li{
+    display:inline;
+    padding:10px;
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.circle-image {
+    border-radius: 50%; 
+    width: 150px; 
+    height:150px; 
+    object-fit: cover; 
+}
